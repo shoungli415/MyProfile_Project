@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="./images/home.jpg">
+    <meta property="og:title" content="이은송 자기소개페이지">
+    <meta property="og:description" content="자기소개페이지 과제 제출">
+    <link rel="shortcut icon" href="images/lemon.ico">
+    <title>정보융합학부 이은송</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+    <div class="loading_container">
+        <div class="loading_box">
+            <p class="loading">🍫</p>
+            <p>Loading</p>
+        </div>
+    </div>
+
+    <header>
+        <h1 class="blind">이은송 자기소개서</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">🍫<span class="tooltip-text">Home</span></a>
+                </li>
+                <li>
+                    <a href="#about">🍫<span class="tooltip-text">About</span></a>
+                </li>
+                <li>
+                    <a href="#favorite">🍫<span class="tooltip-text">Favorite</span></a>
+                </li>
+                <li>
+                    <a href="#goal">🍫<span class="tooltip-text">Goal</span></a>
+                </li>
+                <li>
+                    <a href="#contact">🍫<span class="tooltip-text">Contact</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Home -->
+            <section id="home">
+                <div class="title">
+                    <h1></h1>
+                    <p>안녕하세요 정보융합학부 이은송입니다.</p>
+                </div>
+                <div class="scroll">
+                    <a href="#about"><span></span></a>
+                    <p>Scroll</p>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="category">
+                    <h2>About</h2>
+                </div>
+
+                <div class="about_profile">
+                    <div class="img_box">
+                        <img src="images/profile.jpg" alt="프로필 사진">
+                    </div>
+                    <div class="introduction">
+                        <ul class="desc_box1">
+                            <li>
+                                <div>
+                                    <p>이은송</p>
+                                    <p>이름</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>2004.04.15</p>
+                                    <p>생년월일</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>충주</p>
+                                    <p>거주지</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="desc_box2">
+                            <span>010-3057-3593</span>
+                            <span>📱</span>
+                        </div>
+                        <div class="desc_box2">   
+                            <span>eunsong415@gmail.com</span>
+                            <span>📧</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+    
+            <!-- Faovorite -->
+            <section id="favorite">
+                <div class="category">
+                    <h2>Favorite</h2>
+                    <p>내가 좋아하는 것들</p>
+                </div>
+                <div class="slide_warp">
+                    <ul class="slides">
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_escape.jpg" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>01</span>
+                                <p class="title">미술</p>
+                                <p class="desc">어렸을 때부터 그림을 그리거나 무언가 만드는 것을 좋아했습니다. 최근에는 지우개와 비누로 작은 조각품을 만들었습니다.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_coffee.jpg" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>02</span>
+                                <p class="title">초콜릿</p>
+                                <p class="desc">
+                                    간식 중에선 초코 디저트를 가장 좋아합니다! 카페에선 초코라떼 필수!!ㅎㅎ
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="slide_img_box">
+                                <img src="images/favorite_cat.jpg" alt="방탈출">
+                            </div>
+                            <div class="slide_text_box">
+                                <span>03</span>
+                                <p class="title">고양이</p>
+                                <p class="desc">고양이는 귀엽습니다. 그게 고양이를 좋아하는 이유의 전부입니다.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <p class="controls">
+                    <span class="prev">🌹</span>
+                    <span class="next">🌹</span>
+                </p>
+            </section>
+
+            <!-- guestbook -->
+            <section id="guestbook">
+                <div class="category">
+                    <h2>Guest Book</h2>
+                </div>
+
+	            <form id="guestbook-form">
+		            <table id="t1">
+			            <tr>
+				            <th>🍫작성자</th>
+				            <td><input type="text" name="writer" id="writer"></td>
+			            </tr>
+			            <tr>
+				            <th>🍫비밀번호</th>
+				            <td><input type="password" name="pwd" id="pwd"></td>
+			            </tr>
+			            <tr>
+				            <th>🍫내용</th>
+				            <td><input type="text" name="content" id="content"></td>
+			            </tr>
+			            <tr>
+				            <td><input type="button" value="작성 완료" onclick="a()"></td>
+			            </tr>
+		            </table>
+	            </form>
+
+              <ul id="guestbook-entries">
+                <!-- 방명록 -->
+            </ul>
+            
+	            <div id="list"></div>
+
+              <script>
+                let cnt = 1;
+                function a() {
+                    let form = document.getElementById("guestbook-form");
+                    let writer = form.writer.value;
+                    let pwd = form.pwd.value;
+                    let content = form.content.value;
+                    let el = mkDiv(writer, pwd, content);
+                    let list = document.getElementById("guestbook-entries");
+                    list.appendChild(el);
+                    form.writer.value = "";
+                    form.pwd.value = "";
+                    form.content.value = "";
+                }
+            
+                function mkDiv(writer, pwd, content) {
+                    let newDiv = document.createElement("div");
+                    newDiv.id = "d_" + cnt;
+                    newDiv.pwd = pwd;
+                    newDiv.className = `guestbook-entry margin-${cnt % 6}`; // Cycle through 1 to 5
+            
+                    let now = new Date();
+                    let timestamp = now.toLocaleString(); 
+            
+                    let writerDiv = document.createElement("div");
+                    writerDiv.innerHTML = `writer: <span id='w_${cnt}'>${writer}</span>`;
+            
+                    let contentDiv = document.createElement("div");
+                    contentDiv.innerHTML = `content: <span id='c_${cnt}'>${content}</span>`;
+            
+                    let timestampDiv = document.createElement("div");
+                    timestampDiv.className = "timestamp";
+                    timestampDiv.innerHTML = `time: <span id='t_${cnt}'>${timestamp}</span>`;
+            
+                    let editButton = document.createElement("button");
+                    editButton.innerText = "수정";
+                    editButton.onclick = function() { editForm(cnt); };
+            
+                    let deleteButton = document.createElement("button");
+                    deleteButton.innerText = "삭제";
+                    deleteButton.onclick = function() { del(cnt); };
+            
+                    newDiv.appendChild(writerDiv);
+                    newDiv.appendChild(contentDiv);
+                    newDiv.appendChild(timestampDiv);
+                    newDiv.appendChild(editButton);
+                    newDiv.appendChild(deleteButton);
+            
+                    cnt++;
+                    return newDiv;
+                }
+            
+                function editForm(cnt) {
+                    let editDiv = document.getElementById("d_" + cnt);
+                    let editForm = document.getElementById("editf");
+                    editDiv.appendChild(editForm);
+                    let writer = document.getElementById("w_" + cnt).innerHTML;
+                    let content = document.getElementById("c_" + cnt).innerHTML;
+                    document.getElementById("editwriter").value = writer;
+                    document.getElementById("editcontent").value = content;
+                    document.getElementById("editbtn").cnt = cnt;
+                    editForm.style.display = '';
+                }
+            
+                function del(cnt) {
+                    let delDiv = document.getElementById("d_" + cnt);
+                    ocument.getElementById("guestbook-entries").removeChild(delDiv);
+                }
+            </script>
+            
+            </section>
+
+            <!-- contact -->
+            <section id="contact">
+                <div class="container">
+                    <div class="category">
+                        <h2>Contact</h2>
+                    </div>
+                    <div class="link">
+                        <ul>
+                            <li><a href="https://www.instagram.com/eunsong415/" target="_blank">Click me!!</a></li>
+                        </ul>
+                    </div>
+                    <img src="images/instagram.jpg" alt="instagram">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>* 2023204045 이은송 *</p>
+    </footer>
+
+    <script src="js/loading.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
